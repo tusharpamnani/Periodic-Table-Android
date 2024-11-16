@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_menu_search">
+        <item
+            android:id="@+id/menu_search"
+            android:icon="@drawable/ic_outline_search_30"
+            android:title="Search" />
+    </group>
+
+    <group android:id="@+id/group_menu_rotation">
+        <item
+            android:id="@+id/menu_rotation"
+            android:icon="@drawable/ic_outline_screen_rotation_30"
+            android:title="Screen Rotation" />
+    </group>
+
+    <group android:id="@+id/group_menu_theme">
+        <item
+            android:id="@+id/menu_theme"
+            android:icon="@drawable/ic_outline_color_lens_24"
+            android:title="Theme" />
+    </group>
+
+    <group android:id="@+id/group_menu_language">
+        <item
+            android:id="@+id/menu_language"
+            android:icon="@drawable/ic_outline_language_30"
+            android:title="Language" />
+    </group>
+
+    <group android:id="@+id/group_menu_feedback">
+        <item
+            android:id="@+id/menu_feedback"
+            android:icon="@drawable/ic_baseline_feedback_24"
+            android:title="Feedback and Contact" />
+    </group>
+
+    <group android:id="@+id/group_menu_privacy_policy">
+        <item
+            android:id="@+id/menu_privacy_policy"
+            android:icon="@drawable/ic_baseline_policy_24"
+            android:title="Privacy Policy" />
+    </group>
+
+    <group android:id="@+id/group_menu_about">
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="About" />
+    </group>
+
+</menu>
